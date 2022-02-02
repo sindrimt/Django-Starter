@@ -38,7 +38,7 @@
 
 **Python shell example**
 
-> _from products.models import Product_<br> >_Product.objects.all()_<br> >_<QuerySet [<Product: Product object (1)>]>_<br> >_Product.objects.create(title = "new procudt 2", description = "another one", price = "2323", summary = "SJSJSJS")_
+> - _from products.models import Product_<br> - _Product.objects.all()_<br> - _<QuerySet [<Product: Product object (1)>]_<br> - _Product.objects.create(title = "asdf", description = "asdf", price = "1234", summary = "asdf")_
 
 **If you try to add a field to database that doesn't exist is the previous**
 **fields and try to makemigration, press 1, and set the value. This will be the value in all previous fields**
