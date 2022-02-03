@@ -1,3 +1,5 @@
+**pip install Django==2.1.5**
+
 **Activate virtual environment**
 <br>
 
